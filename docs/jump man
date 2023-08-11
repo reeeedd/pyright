@@ -1,0 +1,28 @@
+import pygame
+
+# Initialize Pygame
+pygame.init()
+
+# Set up the game window
+window_width = 800
+window_height = 600
+window = pygame.display.set_mode((window_width, window_height))
+pygame.display.set_caption("Jump Man Game")
+
+# Game loop
+running = True
+while running:
+    # Handle events
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    # Update game logic
+
+    # Render game objects
+
+    # Update display
+    pygame.display.flip()
+
+# Quit the game
+pygame.quit()
